@@ -7,7 +7,7 @@ import re
 
 from setuptools import setup
 
-URL = "https://github.com/zackees/sudo_win32_extras"
+URL = "https://github.com/zackees/sudo-win32-extras"
 KEYWORDS = ""
 HERE = os.path.dirname(os.path.abspath(__file__))
 
