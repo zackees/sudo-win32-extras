@@ -1,2 +1,19 @@
-# sudo_win32_extras
-Contains the sudo command that is conditionally installed with sudo[win32]
+# sudo-win32-extras
+
+Simply contains the sudo command for Windows, meant to be used with sudo_win32[sudo]
+
+[![Linting](../../actions/workflows/lint.yml/badge.svg)](../../actions/workflows/lint.yml)
+
+
+Replace `template-python-cmd` and `template_python_cmd` with your command. Run tox until it's
+correct.
+
+To develop software, run `. ./activate.sh`
+
+# Windows
+
+This environment requires you to use `git-bash`.
+
+# Linting
+
+Run `./lint.sh` to find linting errors using `pylint`, `flake8` and `mypy`.
